@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: mohammedsafik/bpro
+          image: mohammedsafik/bpro:1
           imagePullPolicy: Always
           ports:
             - containerPort: 4001
