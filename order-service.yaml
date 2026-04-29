@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: mohammedsafik/bor
+          image: mohammedsafik/bor:1
           imagePullPolicy: Always
           ports:
             - containerPort: 4004
