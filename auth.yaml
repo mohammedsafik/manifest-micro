@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: mohammedsafik/bauth:2
+          image: mohammedsafik/bauth:3
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
