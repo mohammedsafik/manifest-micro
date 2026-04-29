@@ -13,8 +13,3 @@ data:
         static_configs:
           - targets:
               - order-service.default.svc.cluster.local:83
-              - default.svc.cluster.local:81
-              - default.svc.cluster.local:82
-              - default.svc.cluster.local:88
-              - default.svc.cluster.local:85
-              - default.svc.cluster.local:80
